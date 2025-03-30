@@ -76,7 +76,7 @@ double target_longitude = 0.0;
 float ground_altitude = 0.0;
 unsigned long takeoffStartTime = 0;
 unsigned long hoverStartTime = 0;
-#define TAKEOFF_DURATION 5000i
+#define TAKEOFF_DURATION 5000
 
 enum DroneState { IDLE, TAKEOFF, HOVER, LANDING, STOP };
 DroneState droneState = IDLE;
